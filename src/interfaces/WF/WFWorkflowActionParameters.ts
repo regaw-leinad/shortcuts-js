@@ -8,6 +8,7 @@ import WFDateFormatStyle from './WFDateFormatStyle';
 import WFDeviceDetail from './WFDeviceDetail';
 import WFEncodeMode from './WFEncodeMode';
 import WFFlashlightSetting from './WFFlashlightSetting';
+import WFFrequency from './WFFrequency';
 import WFGetDictionaryValueType from './WFGetDictionaryValueType';
 import WFHashType from './WFHashType';
 import WFHTTPBodyType from './WFHTTPBodyType';
@@ -63,6 +64,7 @@ interface WFWorkflowActionParameters {
   WFEncodeMode?: WFEncodeMode;
   WFFlashlightSetting?: WFFlashlightSetting;
   WFFormValues?: WFSerialization;
+  WFFrequency?: WFSerialization | WFFrequency[];
   WFGetDictionaryValueType?: WFGetDictionaryValueType;
   WFGetLatestPhotoCount?: number;
   WFHashType?: WFSerialization | WFHashType;
@@ -75,6 +77,7 @@ interface WFWorkflowActionParameters {
   WFISO8601IncludeTime?: WFSerialization | boolean;
   WFJavaScript?: WFSerialization | string;
   WFJSONValues?: WFSerialization;
+  WFLabel?: WFSerialization | string;
   WFMatchTextCaseSensitive?: boolean;
   WFMatchTextPattern?: WFSerialization | string;
   WFMathOperand?: number;
@@ -104,6 +107,7 @@ interface WFWorkflowActionParameters {
   WFSkipBackBehavior?: WFSkipBackBehavior;
   WFStatisticsOperation?: WFSerialization | WFStatisticsOperation;
   WFTextActionText?: WFSerialization | string;
+  WFTime?: WFSerialization | string;
   WFTimeFormatStyle?: WFSerialization | WFTimeFormatStyle;
   WFURLActionURL?: string;
   WFVariable?: WFSerialization | string;
