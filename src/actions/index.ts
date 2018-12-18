@@ -12,6 +12,7 @@ import conditional from './conditional';
 import continueShortcutInApp from './continueShortcutInApp';
 import correctSpelling from './correctSpelling';
 import count from './count';
+import createAlarm from './createAlarm';
 import createNote from './createNote';
 import date from './date';
 import deletePhotos from './deletePhotos';
@@ -126,6 +127,7 @@ export {
   continueShortcutInApp,
   correctSpelling,
   count,
+  createAlarm,
   createNote,
   date,
   deletePhotos,
